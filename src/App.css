@@ -1,0 +1,103 @@
+.container{
+  display: grid;
+  grid-template-columns: auto auto;
+ border: 2px solid rgb(185, 185, 245);;
+  
+}
+.dashboard{
+  grid-row-start: 1;
+  grid-row-end: 3;
+width:max-content;
+background-color: white;
+padding: 10px;
+
+}
+.textarea{
+  width: 50%;
+  height:150px;
+  border-color: white;
+outline: none;
+  text-align: justify;
+ }
+ .notes_button{
+  color: white;
+  background-color: rgb(5, 5, 27);
+  margin: 10px;
+ }
+ 
+ .header{
+  background-color:rgb(185, 185, 245) ;
+  padding: 15px;
+ }
+ .footer{
+  background-color: rgb(185, 185, 245);
+  padding: 15px;
+ }
+ .flex{
+  display: flex;
+  column-gap: 20px;
+
+
+
+ 
+ }
+ .note{
+ border-radius: 10px;
+ padding: 10px;
+ 
+ background-color: white;
+  
+ }
+ .textnode{
+  width: 200px ;
+  height: 60px;
+  padding: 10px;
+  
+  border: 2px solid rgb(255, 255, 255);
+  
+  
+ }
+ .header_note{
+  border: 2px solid white;
+  border-radius: 15px;
+  padding: 10px;
+  background-color: white;
+  display: grid;
+  grid-template-columns: auto;
+
+
+ }
+ .addnote{
+  background-color: black;
+  border-radius: 10px;
+  color: white;
+  width: 30px;
+  height: 30px;
+ }
+ .textarea1{
+  outline: none;
+  border-color: white;
+  border: 5px rgb(255, 255, 255) solid;
+
+}
+.input{
+  outline: none;
+  border: 2px solid white;
+}
+.textarea2{
+  display: block;
+  height: 40%; 
+  margin-bottom: 30px;
+  margin-top: 10px;
+  border-radius: 10px;
+  border: 2px solid black;
+}
+.detail{
+position: absolute;
+  top: 200px;
+}
+.savebutton{
+  margin-bottom: 15px;
+  border-radius: 5px;
+  
+}
